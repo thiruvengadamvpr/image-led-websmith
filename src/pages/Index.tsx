@@ -1,6 +1,7 @@
 
 import Navbar from "@/components/Navbar";
 import ServiceCard from "@/components/ServiceCard";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -42,6 +43,8 @@ const Index = () => {
           />
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 };
